@@ -113,7 +113,7 @@ java -cp 03-Algorithms/03-Dynamic-Programming DynamicProgrammingDemo
 
 ## 👨‍🏫 Author & Mentorship
 
-Developed and maintained by **Pradeep Basha** — Master Trainer & Software Architect.
+Developed and maintained by **Pradeep** — Master Trainer & Software Architect.
 
 - 🌐 **Portfolio**: [https://pradeep-b28.github.io/Pradeep-B28/](https://pradeep-b28.github.io/Pradeep-B28/)
 - 💼 **LinkedIn**: [linkedin.com/in/pradeepb-2k](https://www.linkedin.com/in/pradeepb-2k)
@@ -124,7 +124,7 @@ Developed and maintained by **Pradeep Basha** — Master Trainer & Software Arch
 ## 📄 License & Copyright
 
 ```
-Copyright (c) 2026 Pradeep Basha (Pradeep-B28). All Rights Reserved.
+Copyright (c) 2026 Pradeep (Pradeep-B28). All Rights Reserved.
 
 Licensed under the MIT License. You may freely use, modify, and distribute
 this project under the terms of the MIT license. See the LICENSE file for details.
