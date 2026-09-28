@@ -16,7 +16,18 @@
 
 ---
 
+## 📸 Roadmap Preview
+
+<div align="center">
+  <img width="1408" height="768" alt="Java + DSA Complete Learning Roadmap" src="https://github.com/user-attachments/assets/90851db9-c4a8-42fe-b8fb-55198887d199" />
+  <br>
+  <i>📌 <strong>Complete learning path</strong> — from fundamentals to advanced algorithms</i>
+</div>
+
+---
+
 ## 📋 Table of Contents
+- [Roadmap Preview](#-roadmap-preview)
 - [Curriculum Architecture](#-curriculum-architecture)
 - [4-Phase Learning Path](#-4-phase-learning-path)
   - [Phase 1: Core Java Foundations](#phase-1-core-java-foundations-01-core-java)
