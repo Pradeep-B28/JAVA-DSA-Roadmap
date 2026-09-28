@@ -16,27 +16,7 @@
 
 ---
 
-## 📸 Visual Roadmap & Curriculum Preview
-
-<div align="center">
-  <img width="100%" alt="Java and DSA Comprehensive Roadmap Preview" src="https://github.com/user-attachments/assets/90851db9-c4a8-42fe-b8fb-55198887d199" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);" />
-  <p><em>📌 <strong>Complete Structured Learning Path</strong> — from Java fundamentals to advanced algorithmic graph patterns and interview mastery.</em></p>
-</div>
-
-### 🗺️ 5-Stage Technical Ascent Roadmap
-<div align="center">
-  <img src="assets/flagship_roadmaps.svg" alt="Flagship Roadmap: 5-Stage Technical Ascent" width="100%" />
-</div>
-
-### 📊 Algorithmic Runtime Architecture (Big-O Complexity)
-<div align="center">
-  <img src="assets/big_o_chart.svg" alt="Algorithmic Runtime Architecture: Big-O Complexity" width="100%" />
-</div>
-
----
-
 ## 📋 Table of Contents
-- [Visual Roadmap & Curriculum Preview](#-visual-roadmap--curriculum-preview)
 - [Curriculum Architecture](#-curriculum-architecture)
 - [4-Phase Learning Path](#-4-phase-learning-path)
   - [Phase 1: Core Java Foundations](#phase-1-core-java-foundations-01-core-java)
@@ -53,9 +33,6 @@
 
 ```text
 JAVA-DSA-Roadmap/
-├── assets/
-│   ├── flagship_roadmaps.svg             # 5-Stage Technical Ascent Diagram
-│   └── big_o_chart.svg                   # Big-O Complexity Runtime Architecture
 ├── 01-Core-Java/
 │   ├── 01-Fundamentals/                  # Java Syntax, Variables, Control Flow, Loops (Basics.java)
 │   ├── 02-OOPs-Concepts/                 # Encapsulation, Inheritance, Polymorphism, Abstraction (OOPsDemo.java)
