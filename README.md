@@ -159,4 +159,4 @@ this project under the terms of the MIT license. See the LICENSE file for detail
 - 🗺️ **Namma Route (Tamil Nadu Transit Graph):** [nammaroute-sigma.vercel.app](https://nammaroute-sigma.vercel.app/)
 - 🎆 **Diwali Sky (Fireworks Simulator):** [diwalisky.vercel.app](https://diwalisky.vercel.app)
 - ⚪ **Life in Dots (Lifespan in Weeks):** [lifeindots.vercel.app](https://lifeindots.vercel.app)
-- 🤖 **Catch the AI (Code Review & Debug Game):** [catch-the-ai.vercel.app](https://catch-the-ai.vercel.app/)
+- 🤖 **Catch the AI (Code Review & Debug Game):** [catchtheai.vercel.app](https://catchtheai.vercel.app/)
