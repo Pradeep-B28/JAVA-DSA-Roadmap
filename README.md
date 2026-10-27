@@ -1,100 +1,57 @@
-# 🗺️ Java + DSA Master Roadmap & Comprehensive Practice Suite
+# Java + DSA Curriculum & Interview Engineering Suite
 
-<div align="center">
-
-  <img src="https://img.shields.io/badge/Java-17%20%7C%2021%20%7C%2026-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java Version" />
-  <img src="https://img.shields.io/badge/Curriculum-4--Phase%20Mastery-blue?style=for-the-badge" alt="DSA Curriculum" />
-  <img src="https://img.shields.io/badge/Mentored-7%2C500%2B%20Engineers-brightgreen?style=for-the-badge" alt="Engineers Mentored" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT" />
-
-  <p align="center">
-    <strong>An end-to-end, production-grade curriculum for mastering Core Java and Data Structures & Algorithms.</strong><br />
-    Features fully implemented, compilable standalone Java source modules, 15 core interview algorithmic patterns, and a 100+ LeetCode practice checklist.
-  </p>
-
-</div>
+> **Source Repository:** [github.com/Pradeep-B28/JAVA-DSA-Roadmap](https://github.com/Pradeep-B28/JAVA-DSA-Roadmap)  
+> **Author & Trainer:** [B Pradeep](https://github.com/Pradeep-B28) · [Portfolio](https://pradeep-b28.github.io/Pradeep-B28/)
 
 ---
 
-## 📸 Roadmap Preview
+## Overview
 
-<div align="center">
-  <img width="1408" height="768" alt="Java + DSA Complete Learning Roadmap" src="https://github.com/user-attachments/assets/90851db9-c4a8-42fe-b8fb-55198887d199" />
-  <br>
-  <i>📌 <strong>Complete learning path</strong> — from fundamentals to advanced algorithms</i>
-</div>
+A structured, end-to-end curriculum for mastering Core Java (OOP, memory model, concurrency, collections internals) and Data Structures & Algorithms. Designed and refined across **4 years** and **7,500+ mentored engineers and students** at institutions including VIT Chennai, VIT Vellore, VIT-AP, and Sethu Institute of Technology.
 
----
+Features fully compilable standalone Java implementations, 15 core interview problem-solving pattern templates, and a curated 100+ LeetCode roadmap.
 
-## 📋 Table of Contents
-- [Roadmap Preview](#-roadmap-preview)
-- [Curriculum Architecture](#-curriculum-architecture)
-- [4-Phase Learning Path](#-4-phase-learning-path)
-  - [Phase 1: Core Java Foundations](#phase-1-core-java-foundations-01-core-java)
-  - [Phase 2: Fundamental & Advanced Data Structures](#phase-2-fundamental--advanced-data-structures-02-data-structures)
-  - [Phase 3: Classic & Optimization Algorithms](#phase-3-classic--optimization-algorithms-03-algorithms)
-  - [Phase 4: FAANG & Enterprise Interview Preparation](#phase-4-faang--enterprise-interview-preparation-04-interview-prep)
-- [Compilation & Execution Guide](#-compilation--execution-guide)
-- [Author & Mentorship](#-author--mentorship)
-- [License & Copyright](#-license--copyright)
-
----
-
-## 📌 Curriculum Architecture
-
-```text
-JAVA-DSA-Roadmap/
-├── 01-Core-Java/
-│   ├── 01-Fundamentals/                  # Java Syntax, Variables, Control Flow, Loops (Basics.java)
-│   ├── 02-OOPs-Concepts/                 # Encapsulation, Inheritance, Polymorphism, Abstraction (OOPsDemo.java)
-│   └── 03-Collections-Framework/         # List, Set, Map, Queue, PriorityQueue (CollectionsGuide.java)
-├── 02-Data-Structures/
-│   ├── 01-Arrays-and-ArrayList/          # Array Manipulation, Two Pointers, Sliding Window (ArrayOperations.java)
-│   ├── 02-LinkedLists/                   # Singly/Doubly Linked Lists, Cycle Detection (LinkedListDemo.java)
-│   ├── 03-Stacks-and-Queues/             # Custom Array Stack, Linked Queue, Parentheses (StackQueueDemo.java)
-│   ├── 04-Trees-and-BST/                 # Binary Trees, Traversals (Pre/In/Post/BFS) (BinaryTreeDemo.java)
-│   ├── 05-Heaps-and-PriorityQueue/       # Custom MinHeap, Sift-Up/Down, Kth Largest (HeapDemo.java)
-│   └── 06-Graphs/                        # Adjacency List, BFS, DFS, Dijkstra Shortest Path (GraphDemo.java)
-├── 03-Algorithms/
-│   ├── 01-Searching-Sorting/             # Binary Search, Merge Sort, Quick Sort (SortingAlgorithms.java)
-│   ├── 02-Recursion-Backtracking/        # Subsets, Permutations, N-Queens Solver (RecursionBacktrackingDemo.java)
-│   └── 03-Dynamic-Programming/           # 0/1 Knapsack, Coin Change, LCS, Tabulation (DynamicProgrammingDemo.java)
-├── 04-Interview-Prep/
-│   ├── Patterns.md                       # Top 15 Problem Solving Patterns & Templates
-│   └── Problem-Set.md                    # 100+ Essential LeetCode Problem Checklist
-├── LICENSE                               # MIT License
-└── README.md                             # Comprehensive curriculum documentation
+```mermaid
+flowchart LR
+    P1["Phase 1: Core Java\n(OOP, Memory Model, Collections)"] --> P2["Phase 2: Data Structures\n(Arrays, Lists, Stacks, Trees, Heaps, Graphs)"]
+    P2 --> P3["Phase 3: Algorithms\n(Divide & Conquer, Backtracking, DP)"]
+    P3 --> P4["Phase 4: Interview Engineering\n(15 Core Patterns · 100+ Problem Set)"]
 ```
 
 ---
 
-## 🚀 4-Phase Learning Path
+## Curriculum Structure
 
-### Phase 1: Core Java Foundations (`01-Core-Java/`)
-- 💡 **Java Fundamentals**: Primitives vs reference types, scopes, operators, loops, string immutability (`Basics.java`).
-- 🏗️ **Object-Oriented Architecture**: Class composition, abstract classes, interface contracts, polymorphism (`OOPsDemo.java`).
-- 📦 **Collections Framework Deep-Dive**: Time complexities, iterators, `HashMap` hashing internals, `PriorityQueue` ordering (`CollectionsGuide.java`).
-
-### Phase 2: Fundamental & Advanced Data Structures (`02-Data-Structures/`)
-- ⚡ **Arrays & Resizable Arrays**: Static array manipulation, two-pointer scanning, sliding window algorithms (`ArrayOperations.java`).
-- 🔗 **Linked Lists**: Node manipulation, fast & slow pointer cycle detection, in-place reversal (`LinkedListDemo.java`).
-- 📚 **Stacks & Queues**: Custom fixed and dynamic implementations, LIFO/FIFO mechanics, expression evaluation (`StackQueueDemo.java`).
-- 🌲 **Trees & Binary Search Trees**: Tree traversals (In-order, Pre-order, Post-order, Level-order BFS), BST insertion & validation (`BinaryTreeDemo.java`).
-- 📊 **Heaps & Priority Queues**: Binary heap properties, heapify, sift-up/down operations, top-K selection (`HeapDemo.java`).
-- 🌐 **Graph Theory**: Graph representations (Adjacency Matrix vs. List), BFS, DFS traversal, Dijkstra shortest path (`GraphDemo.java`).
-
-### Phase 3: Classic & Optimization Algorithms (`03-Algorithms/`)
-- 🔎 **Searching & Sorting**: Binary search boundaries, Merge Sort $O(N \log N)$ divide-and-conquer, Quick Sort partitioning (`SortingAlgorithms.java`).
-- 🔄 **Recursion & Backtracking**: Exhaustive search spaces, pruning conditions, combinatorial subsets, permutations, N-Queens constraint satisfaction (`RecursionBacktrackingDemo.java`).
-- 🧠 **Dynamic Programming**: Optimal substructure, overlapping subproblems, memoization vs. iterative tabulation, Knapsack, Coin Change, LCS (`DynamicProgrammingDemo.java`).
-
-### Phase 4: FAANG & Enterprise Interview Preparation (`04-Interview-Prep/`)
-- 🎯 **[Top 15 Problem Solving Patterns](04-Interview-Prep/Patterns.md)**: Sliding Window, Two Pointers, Fast & Slow Pointers, Monotonic Stack, Top-K, etc.
-- 📝 **[100+ Curated LeetCode Checklist](04-Interview-Prep/Problem-Set.md)**: Tiered progression across Easy, Medium, and Hard problem tiers.
+| Phase | Focus Domain | Key Topics & Standalone Modules |
+| :--- | :--- | :--- |
+| **01 Core Java** | Fundamentals & JVM | `Basics.java` (Primitives vs. References), `OOPsDemo.java` (Polymorphism, Abstraction), `CollectionsGuide.java` (`HashMap` bucket mechanics, `PriorityQueue`) |
+| **02 Data Structures** | Fundamental & Hierarchical | `ArrayOperations.java` (Two pointers, Sliding window), `LinkedListDemo.java` (Floyd's cycle detection), `StackQueueDemo.java`, `BinaryTreeDemo.java` (Traversals & BST), `HeapDemo.java` (Sift-up/down), `GraphDemo.java` (BFS, DFS, Dijkstra) |
+| **03 Algorithms** | Optimization & Complexity | `SortingAlgorithms.java` (Merge Sort, Quick Sort), `RecursionBacktrackingDemo.java` (Subsets, Permutations, N-Queens), `DynamicProgrammingDemo.java` (Knapsack, Coin Change, Tabulation) |
+| **04 Interview Prep** | Algorithmic Problem Solving | `Patterns.md` (Top 15 Problem Solving Patterns), `Problem-Set.md` (100+ curated interview problems categorized by pattern and tier) |
 
 ---
 
-## 🛠️ Compilation & Execution Guide
+## Top 15 Algorithmic Patterns Covered
+
+1. **Two Pointers:** Opposite-directional scans, palindrome verification, trapped rainwater.
+2. **Sliding Window:** Dynamic vs. fixed length windows, maximum sum subarrays, longest substring without repeats.
+3. **Fast & Slow Pointers:** Floyd's cycle detection in linked lists and arrays.
+4. **Merge Intervals:** Interval collision detection, room allocation scheduling.
+5. **Cyclic Sort:** $O(N)$ time and $O(1)$ space for finding missing/duplicate numbers in contiguous ranges.
+6. **In-place Reversal of LinkedList:** Sub-list reversal with zero heap reallocations.
+7. **Tree Breadth-First Search (BFS):** Level-order traversals, zigzag paths, minimum depth.
+8. **Tree Depth-First Search (DFS):** Path sums, diameter of binary tree, lowest common ancestor.
+9. **Two Heaps Pattern:** Median of continuous data streams.
+10. **Subsets & Backtracking:** Power sets, combinatorial pruning, state-space exploration.
+11. **Modified Binary Search:** Order-agnostic search, rotated sorted array boundaries.
+12. **Top-K Elements:** Priority queue selection in $O(N \log K)$ time.
+13. **K-way Merge:** Merging sorted streams and lists.
+14. **0/1 Knapsack & Unbounded DP:** Memoization tables, state space compression.
+15. **Topological Sort (Kahn's Algorithm):** Dependency resolution and cycle detection in DAGs.
+
+---
+
+## Standalone Compilation & Execution
 
 All modules in this repository are pure, self-contained Java source files requiring zero third-party dependencies:
 
@@ -103,60 +60,37 @@ All modules in this repository are pure, self-contained Java source files requir
 git clone https://github.com/Pradeep-B28/JAVA-DSA-Roadmap.git
 cd JAVA-DSA-Roadmap
 
-# Run Stacks & Queues Demo
+# Compile and run Stacks & Queues Demo
 javac 02-Data-Structures/03-Stacks-and-Queues/StackQueueDemo.java
 java -cp 02-Data-Structures/03-Stacks-and-Queues StackQueueDemo
 
-# Run Binary Heap & Priority Queue Demo
+# Compile and run Binary Heap Demo
 javac 02-Data-Structures/05-Heaps-and-PriorityQueue/HeapDemo.java
 java -cp 02-Data-Structures/05-Heaps-and-PriorityQueue HeapDemo
 
-# Run Graph Traversals & Dijkstra Shortest Path
+# Compile and run Graph Traversals & Dijkstra Shortest Path
 javac 02-Data-Structures/06-Graphs/GraphDemo.java
 java -cp 02-Data-Structures/06-Graphs GraphDemo
 
-# Run Dynamic Programming Suite
+# Compile and run Dynamic Programming Suite
 javac 03-Algorithms/03-Dynamic-Programming/DynamicProgrammingDemo.java
 java -cp 03-Algorithms/03-Dynamic-Programming DynamicProgrammingDemo
 ```
 
 ---
 
-## 👨‍🏫 Author & Mentorship
+## Author & Mentorship
 
-Developed and maintained by **Pradeep** — Master Trainer & Software Architect.
-
-- 🌐 **Portfolio**: [https://pradeep-b28.github.io/Pradeep-B28/](https://pradeep-b28.github.io/Pradeep-B28/)
-- 💼 **LinkedIn**: [linkedin.com/in/pradeepb-2k](https://www.linkedin.com/in/pradeepb-2k)
-- 📧 **Email**: [pradeepbashaa@gmail.com](mailto:pradeepbashaa@gmail.com)
-
----
-
-## 📄 License & Copyright
-
-```
-Copyright (c) 2026 Pradeep (Pradeep-B28). All Rights Reserved.
-
-Licensed under the MIT License. You may freely use, modify, and distribute
-this project under the terms of the MIT license. See the LICENSE file for details.
-```
+**B Pradeep**  
+Technical Trainer – Academic Excellence, Sethu Institute of Technology  
+*Trained 7,500+ engineers across VIT Chennai, VIT Vellore, VIT-AP, and KSR.*  
+- Email: [pradeepbashaa@gmail.com](mailto:pradeepbashaa@gmail.com)  
+- LinkedIn: [linkedin.com/in/pradeepb-2k](https://www.linkedin.com/in/pradeepb-2k)  
+- LeetCode: [leetcode.com/u/PradeepKrishB](https://leetcode.com/u/PradeepKrishB/)  
+- Portfolio: [pradeep-b28.github.io/Pradeep-B28](https://pradeep-b28.github.io/Pradeep-B28/)
 
 ---
 
-## 👨‍💻 Author & Contact
+## License
 
-**Pradeep B**  
-*Java & DSA Master Trainer | Full-Stack Architect | Web Platform Engineer*
-
-- 🌐 **Softech Career & Placement Portal:** [reachsoftech.onrender.com](https://reachsoftech.onrender.com/home)
-- 🌌 **3D Interactive Developer Portfolio:** [pradeep-b28.github.io/GIT_3D_Portfolio](https://pradeep-b28.github.io/GIT_3D_Portfolio/)
-- 💻 **GitHub Profile:** [@Pradeep-B28](https://github.com/Pradeep-B28)
-- 💼 **LinkedIn:** [linkedin.com/in/pradeepb-2k](https://www.linkedin.com/in/pradeepb-2k)
-- 📧 **Email:** [pradeepbashaa@gmail.com](mailto:pradeepbashaa@gmail.com)
-
-### 🚀 Live Web Applications & Platforms
-- 🌐 **Softech Career Portal:** [reachsoftech.onrender.com](https://reachsoftech.onrender.com/home)
-- 🗺️ **Namma Route (Tamil Nadu Transit Graph):** [nammaroute-sigma.vercel.app](https://nammaroute-sigma.vercel.app/)
-- 🎆 **Diwali Sky (Fireworks Simulator):** [diwalisky.vercel.app](https://diwalisky.vercel.app)
-- ⚪ **Life in Dots (Lifespan in Weeks):** [lifeindots.vercel.app](https://lifeindots.vercel.app)
-- 🤖 **Catch the AI (Code Review & Debug Game):** [catchtheai.vercel.app](https://catchtheai.vercel.app/)
+This curriculum and source code are released under the [MIT License](LICENSE).
